@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>SIMSUM</title>
+    <style>
+        html, body {
+            cursor: url('cursor.svg'), auto;
+        }
+        a, button {
+            cursor: help;
+        }
+        body {
+            background-color: #dcd7d0;
+            color: #262523;
+            font-family: sans-serif;
+            font-size: 0.75rem;
+            padding: 2rem;
+            margin: 0;
+        }
+        ::selection {
+            background-color: #04f;
+            color: #dcd7d0;
+        }
+        a {
+            color: #04f;
+            text-decoration: none;
+        }
+        s {
+            opacity: 0.5;
+        }
+        p {
+            margin: 0.5rem 0;
+        }
+        b {
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .blue {
+            color: #04f;
+        }
+        .blur {
+            filter: blur(2px);
+        }
+        .blur-less {
+            filter: blur(1px);
+        }
+        .masonry {
+            column-width: 18rem;
+            column-gap: 2rem;
+        }
+        article {
+            break-inside: avoid;
+            margin-bottom: 2rem;
+        }
+        article img {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-bottom: 0.75rem;
+            border-radius: 4px;
+        }
+        iframe {
+            margin: 1px 0 7px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="masonry">
+        <article>
+            <a style="display: contents;" href=""><img style="width: 100px;" src="simsum-sticker.svg" alt="simsum typeset in front of an outline of a globe on a blue background in the shape of a circle"/></a>
+            derek x ted x friends
+        </article>
+        <article>
+            <b>mailing list</b>
+            stay updated with music and performances, no spam
+            <form id="signup" class="signup">
+                <input style="width: 50%; margin-top: 0.5rem;" type="email" name="email" placeholder="you@example.com" required>
+                <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+                <button type="submit" aria-label="submit subscription to simsum's mailing list" title="submit">subscribe</button>
+                <p id="msg" role="status"></p>
+            </form>
+        </article>
+        <article>
+            <b>music</b>
+            our music is exclusively on <a href="https://simsum.bandcamp.com/" target="_blank" aria-label="listen to simsum on bandcamp" title="bandcamp">bandcamp</a>
+        </article>
+        <article>
+            <b>live</b>
+            there are no scheduled concerts
+        </article>
+        <article>
+            <b>booking +</b>
+            derektorsani+simsum@gmail.com
+        </article>
+        <article>
+            <b>alone alright</b>
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=1341892451/size=small/bgcol=ffffff/linkcol=333333/transparent=true/" seamless><a href="https://simsum.bandcamp.com/track/alone-alright-demo">alone alright [demo] by SIMSUM</a></iframe>
+            </br>
+            could you see the world through my eyes?</br>
+            could you see the world in my eyes?</br>
+            </br>
+            when you are alone, you’ll be alright</br>
+            </br>
+            could i see the world through your eyes?</br>
+            could i see the world in your eyes?</br>
+            </br>
+            when i am alone, i’ll be alright</br>
+            </br>
+            i’ll be alright i’ll be alright</br>
+            you’ll be alright we’ll be alright</br>
+        </article>
+        <article>
+            <b class="blur-less">spring</b>
+            <span class="blur">what you got in your teeth</br>
+            its spring, its spring, its spring</br>
+            don't tempt me anymore</br>
+            I just wanna wanna feel free</br>
+            </br>
+            but i know i can’t laugh</br>
+            if i don't also weep</br>
+            </br>
+            i could go for some tea</br>
+            but i'm glued to these goddamn sheets</br>
+            don't tempt me anymore</br>
+            i wanna feel the wind in my teeth</br>
+            i’ve been here before</br>
+            on this lightless valley floor</br>
+            </br>
+            it's just me and the wind again</br>
+            and im taking winter in</span>
+        </article>
+        <article>
+            <b class="blur-less">hiraeth</b>
+            <span class="blur">i have no gods to offer these gifts</br>
+            no people to gather and welcome me home</br>
+            no song to sing or story to speak of</br>
+            </br>
+            is there a place</br>
+            i belong to</br>
+            if i am a great great great great grandchild?</br>
+            what fables did they tell?</br>
+            what fell out of the holes in their pockets</br>
+            what did they hide for so long</br>
+            they forgot where to find it?</br>
+            i awake this morning</br>
+            like many many mornings</br>
+            </br>
+            as I step out on the porch</br>
+            in the first light with these questions in my heart</br>
+            how many times have I felt this before?</br>
+            </br>
+            way way long ago</br>
+            the land was listened to</br>
+            and it spoke in a language my people tended</br>
+            will I ever dream in that language again?</br>
+            </br>
+            i miss this unknown home</br>
+            i can barely remember</br>
+            i don’t know if it even ever existed</span>
+        </article>
+        <article>
+            <b class="blur-less">even though the whole world is burning</b>
+            <span class="blur">even though the whole world is burning down</br>
+            all is coming down</br>
+            imagine i didn't hesitate</br>
+            gathering up</br>
+            into bundles of light</br>
+            </br>
+            we seek each other out</br>
+            when we cry, we mend</br>
+            we put a hand on a shoulder</br>
+            not often enough</br>
+            </br>   
+            do we stop?</br>
+            could we listen</br>
+            wait not for an answer</br>
+            wait for not knowing to fill you up</br>
+            there’s a certainty in mystery</br>
+            </br>
+            the stillness calls</br>
+            imagination home</br>
+            even though the whole world is burning down</span>
+        </article>
+        <article>
+            <b class="blur-less">be a kid</b>
+            <span class="blur">the time first light hit your eyes</br>
+            breath drew life</br>
+            all turned quiet</br>
+            in a sudden</br>
+            i found time stood still</br>
+            i reached in your palm</br>
+            saw the future</br>
+            life redrawn</br>
+            </br>
+            is it my heart that im hearing</br>
+            i knew a cry so familiar</br>
+            not your smile or when you speak</br>
+            there's not a bone I would tweak</br>
+            </br>   
+            skin so soft and supple</br>
+            i thought i was seeing double</br>
+            reached in the bottom</br>
+            come autumn</br>
+            </br>
+            i hope, i hope</br>
+            one day you will stop them</br>
+            but for now, be a kid</span>
+        </article>
+        <article>
+            <b class="blur-less">what the grievers bring back</b>
+            <span class="blur">would the truth of my sadness</br>
+            turn everything grey?</br>
+            if i deny this sadness</br>
+            whose colors would i see?</br>
+            </br>
+            i hesitate, as i have all my life,</br>
+            standing against the ocean:</br>
+            is there a sadness more than misery,</br>
+            more than helplessness?</br>
+            </br>
+            what the grievers bring back</br>
+            i've been seeing through the stacks</br>
+            i've been breathing through the grass</br>
+            of the morning</br>
+            i'm unstable from the blast</br>
+            i've been seething through the fast</br>
+            of the mourning</br>
+            what the grievers bring back</br>
+            </br>
+            submerged in the swell</br>
+            feels a way to return</br>
+            delight in the dewy</br>
+            freshness of acceptance</br>
+            wet faces carry</br>
+            the light</br>
+            carry the light</br>
+            my eyes can finally see</br>
+            true true colors</br>
+            the light</span>
+        </article>
+        <article>
+            <b class="blur-less">ono oni</b>
+            <span class="blur">careless body a careful mind</br>
+            full of wisdom and rid of virus</br>
+            helpless heart and a selfless soul</br>
+            full of freedom and famine null</br>
+            </br>
+            i am learning to cope</br>
+            adopted by earth adapting to dirt</br>
+            with no pull in the rope</br>
+            its moving quick and were losing hope</br>
+            </br>
+            how soon is too soon</br>
+            around</br>
+            </br>
+            in the falling days</br>
+            you are here</br>
+            in our rest and wake</br>
+            you are here</br>
+            when were strong and weak</br>
+            you are here</br>
+            in our time of need</br>
+            you are here</span>
+        </article>
+        <article>
+            <b class="blur-less">i was a tiger</b>
+            <span class="blur">i was a tiger</br>
+            you were a dream</br>
+            i was sleepin at your feet</br>
+            it was an atrophy oh yes it was</br>
+            you were a pilot</br>
+            and i was your plan</br>
+            i was the light</br>
+            we flew</br>
+            and we knew</br>
+            from the loop</span>
+        </article>
+    </div>
+
+</body>
+
+<script>
+    const form = document.getElementById('signup');
+    const msg = document.getElementById('msg');
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw1bsoeyzv9FHcxgwgdn06zV2RCMKqoAZjlU2Mkv76eGcNjeqMj3dJmBOxfvIDwZT3UcQ/exec';
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const data = new FormData(form);
+        if (data.get('website')) return;
+
+        msg.textContent = 'Subscribing...';
+        try {
+            await fetch(SCRIPT_URL, { method: 'POST', body: data, mode: 'no-cors' });
+            msg.textContent = 'Thanks! You\'re on the list.';
+            form.reset();
+        } catch (err) {
+            msg.textContent = 'Something went wrong. Please try again.';
+        }
+    });
+</script>
+
+</html>
